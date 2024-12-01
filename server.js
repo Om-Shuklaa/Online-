@@ -22,12 +22,14 @@ app.get("/", (req, res) => {
     body {
       font-family: Arial, sans-serif;
       text-align: center;
+      background-color:darkorange;
     }
     #board {
       display: grid;
       grid-template-columns: repeat(3, 100px);
       grid-gap: 5px;
       justify-content: center;
+      background-color:orange;
     }
     #board div {
       width: 100px;
